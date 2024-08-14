@@ -1,0 +1,74 @@
+.year_wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #e9c0e9;
+  display: grid;
+  grid-template-rows:13% 15% 65% ;
+}
+.year_wrapper h1{
+    color: #502274;
+    top: 5rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+}
+.years {
+  height: 50vh;
+  position: relative;
+  top: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.year {
+  width: 22vw;
+  height: 35vh;
+  border-radius: 20px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.year img {
+  width: 12rem;
+  object-fit: cover;
+  position: relative;
+  padding-bottom: 5px;
+}
+.year span{
+    background: #502274;
+    color: #fff;
+    /* padding: 2rem; */
+    height: 3rem;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.year span:hover{
+    background-color: #642c8f;
+}
+.year:hover{
+    transform: scale(1.01);
+}
+@media (max-width:778px) {
+  .year_wrapper h1{
+      color: #502274;
+      top: 5rem;
+      text-align: center;
+      position: relative;
+      font-size: 32px;
+  }
+  .year img {
+    width: 7rem;
+  }
+}

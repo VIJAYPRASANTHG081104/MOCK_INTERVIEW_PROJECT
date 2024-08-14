@@ -1,0 +1,53 @@
+.changeEvent_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.changeEvent_wrapper form {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  background: #e9c0e9;
+  color: #502274;
+  font-weight: 800;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 17rem;
+  position: relative;
+}
+.changeEvent_wrapper form div {
+  gap: 1rem;
+  display: flex;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.changeEvent_wrapper form div input {
+  width: 20px;
+}
+.changeEvent_wrapper form .change_evt_btn {
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  padding: 1rem;
+  border: none;
+  background: #502274;
+  color: #fff;
+  cursor: pointer;
+}
+.changeEvent_wrapper form .change_evt_btn:hover{
+background-color: #642c8f;   
+}
+.exit_icon {
+  position: absolute;
+  font-size: 30px;
+  color: #502274;
+  top: 5px;
+  right: 15px;
+  cursor: pointer;
+}
+.exit_icon:hover {
+  color: #642c8f;
+}

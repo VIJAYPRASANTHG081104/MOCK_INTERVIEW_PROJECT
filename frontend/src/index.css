@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body{
+  font-family: "Oswald", sans-serif;
+}
+:root{
+  --bg-primary: #fff;
+  --bg-secondary: #f0f2f5;
+  --bg-third: #e4e6eb;
+  --bg-forth: #f0f2f5;
+  --blue-color: #1876f2;
+  --green-color: #42b72a;
+}
+
+.blue_btn{
+  border: none;
+  outline: none;
+  padding: 8.5px 12px;
+  border-radius: 7px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:6px;
+  cursor: pointer;
+  background-color: var(--blue-color);
+}
+.green_btn{
+  border: none;
+  outline: none;
+  padding: 8.5px 12px;
+  border-radius: 7px;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:6px;
+  cursor: pointer;
+  background-color: var(--green-color);
+  margin-top: 15px;
+}
+.splitter{
+  width: 100%;
+  border-bottom: 2px solid var(--bg-third);
+  padding-bottom: 10px;
+}
+a{
+  text-decoration: none;
+}
+
+.blur{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.768);
+  z-index: 99;
+  
+}
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+  transform: translate(-50%,-50%);
+}

@@ -1,0 +1,42 @@
+.navbar_wrapper{
+    display: flex;
+    left:6%;
+    top: 3%;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 40px;
+    width: 85%;
+    height: 10vh;
+    background: #ffffff;
+    font-size: 20px;
+}
+.navbar_wrapper img{
+    width: 5rem;
+}
+.nav_item{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 30px;
+    gap: 10px;
+}
+.nav_item button {
+    background:#1e2330 ;
+    color: #fff;
+    padding: 1rem 30px 1rem 30px;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    /* height: 2rem; */
+}
+
+.nav_profile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+

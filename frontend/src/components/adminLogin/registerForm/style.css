@@ -1,0 +1,84 @@
+.background{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+}
+.register_main{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.image img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.register_wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.register_wrapper h3{
+
+}
+.navbar{
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    width: 5rem;
+    margin-left: 3rem;
+}
+.navbar button{
+    margin-right: 30px;
+    height: 3rem;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    outline: 2px solid#000;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    transition: 0.2s;
+}
+.navbar button:hover{
+    border: 0.8px solid #000;
+    background: #fff;
+    color: #000;
+}
+.register_form_wrap{
+    width: 80%;
+}
+.register_btn{
+    background: #8129d9;
+    width: 30%;
+    padding: 1rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+    color: #fff;
+}
+select{
+    width: 46.2vw;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+.register_btn:hover{
+    background: #7f1de1;
+}

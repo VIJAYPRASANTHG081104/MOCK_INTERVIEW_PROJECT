@@ -1,0 +1,108 @@
+.event_wrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #e9c0e9;
+    display: grid;
+    grid-template-columns: 75% 25%;
+  }
+.event_wrap{
+    display: grid;
+    grid-template-rows:10% 10% 70% 10%;
+}
+.event_wrapper .event_img{
+    width: 25vw;
+    height: 100vh;
+    object-fit: cover;
+}
+  .event_wrapper h1{
+      color: #502274;
+      top: 5rem;
+      text-align: center;
+      position: relative;
+      font-size: 40px;
+  }
+  .events {
+    height: 50vh;
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .event {
+    margin-top: 5rem;
+    width: 15vw;
+    height: 35vh;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 15px 0px rgba(0,0,0,0.75);
+    position: relative;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+  .event img {
+    width: 12rem;
+    object-fit: cover;
+    position: relative;
+    padding-bottom: 5px;
+  }
+  .event span{
+      background: #502274;
+      color: #fff;
+      /* padding: 2rem; */
+      height: 3rem;
+      width: 60%;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      border-radius: 50px;
+      text-align: center;
+  }
+  .event span:hover{
+      background-color: #642c8f;
+  }
+  .event:hover{
+      transform: scale(1.01);
+  }
+  .event_btn{
+    width: 15rem;
+    position: relative;
+    left: 4%;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: #502274;
+    bottom: 20%;
+    cursor: pointer;
+  }
+  .event_btn:hover{
+    background: #642c8f;
+  }
+  .active_Event{
+    background: #000000;
+  }
+  .active_Event span{
+    background-color:  #fff !important;
+    color: #000000;
+  }
+  @media (max-width:1000px) {
+    .event_wrapper h1{
+        color: #502274;
+        top: 5rem;
+        text-align: center;
+        position: relative;
+        font-size: 32px;
+    }
+    .event img {
+      width: 7rem;
+    }
+  }
